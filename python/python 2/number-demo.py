@@ -7,6 +7,7 @@ while value != "exit":
         value = input("Zahl oder exit: ")
         number = float(value)
         numbers.append(number)
+
     except ValueError:
         message = "Eingabe '{}'ist keine Zahl".format(value)
         print(message)
